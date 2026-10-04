@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', 'Noto Sans Armenian', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: #FFF5F2;
+    background-image: 
+      radial-gradient(at 0% 0%, rgba(112, 26, 36, 0.14) 0px, transparent 50%),
+      radial-gradient(at 100% 0%, rgba(234, 88, 12, 0.16) 0px, transparent 50%),
+      radial-gradient(at 50% 30%, rgba(220, 38, 38, 0.10) 0px, transparent 50%),
+      radial-gradient(at 0% 100%, rgba(234, 88, 12, 0.12) 0px, transparent 50%),
+      radial-gradient(at 100% 100%, rgba(128, 0, 32, 0.14) 0px, transparent 50%);
+    background-attachment: fixed;
+    color: #1C1917;
+  }
+}
+
+.font-serif-display {
+  font-family: 'Fraunces', Georgia, serif;
+}
+
+.font-armenian {
+  font-family: 'Noto Sans Armenian', 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Spanish passion warm gradients: Burgundy -> Red -> Orange */
+.bg-spanish-passion {
+  background: linear-gradient(135deg, #701A24 0%, #DC2626 50%, #EA580C 100%);
+}
+
+.text-spanish-gradient {
+  background: linear-gradient(135deg, #701A24 0%, #DC2626 50%, #EA580C 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Custom scrollbars with warm burgundy/orange thumb */
+::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+}
+::-webkit-scrollbar-track {
+  background: #FFF5F2;
+}
+::-webkit-scrollbar-thumb {
+  background: #FCA5A5;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #EF4444;
+}

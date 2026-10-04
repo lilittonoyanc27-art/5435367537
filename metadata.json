@@ -1,0 +1,6 @@
+{
+  "name": "Aprende español con un diálogo",
+  "description": "Aplicación interactiva para aprender español con diálogos reales de televisión argentina, subtítulos interactivos en español y armenio, y ejercicios variados.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
